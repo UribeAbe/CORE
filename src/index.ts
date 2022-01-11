@@ -9,5 +9,4 @@ export async function getPosts() {
   const url = 'https://jsonplaceholder.typicode.com/posts';
   const { data } = await axios.get<Post[]>(url);
   return data;
-  
 }
