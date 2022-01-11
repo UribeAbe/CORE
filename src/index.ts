@@ -6,8 +6,8 @@ export interface Post {
     body: string
 }
 export async function getPosts() {
-    const url = "https://jsonplaceholder.typicode.com/posts"
+    const url = "https://jsonplaceholder.typicode.com/posts";
     
-    const {data} = await axios.get<Post[]>(url)
-    return data
+    const {data} = await axios.get<Post[]>(url);
+    return data;
 }

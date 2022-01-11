@@ -9,7 +9,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
     "publish": "npm run build",
-    "lint": "eslint src/**.ts",
+    "lint": "eslint src/**",
     "prettier": "prettier --write ."
   },
   "author": "",
