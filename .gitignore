@@ -1,4 +1,4 @@
 /lib
+/node_modules
 .dccache
-node_modules
 .npmrc
